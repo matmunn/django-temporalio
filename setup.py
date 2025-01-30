@@ -23,7 +23,7 @@ setup(
     long_description=(read_file("README.md") + "\n\n" + read_file("CHANGELOG.md")),
     long_description_content_type="text/markdown",
     install_requires=[
-        "django>=4.2",
+        "django>=3.2",
         "temporalio>=1.6.0",
     ],
     license=django_temporalio.__license__,
